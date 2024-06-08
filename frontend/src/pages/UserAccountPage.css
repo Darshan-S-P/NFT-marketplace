@@ -1,0 +1,45 @@
+.account-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-info {
+    margin-bottom: 20px;
+  }
+  
+  .account-info img.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .account-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .nav-link {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #0056b3;
+  }
+  
